@@ -1,161 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- RESET CSS -->
+    <link rel="stylesheet" href="../assets/css/reset.css" />
+    <!-- COMMON CSS -->
+    <link rel="stylesheet" href="../assets/css/common.css" />
+    <!-- Contact CSS -->
+    <link rel="stylesheet" href="../assets/css/contact.css" />
+    <!-- Poppins & Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <title>TechGear</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- RESET CSS -->
-  <link rel="stylesheet" href="../assets/css/reset.css" />
-  <!-- COMMON CSS -->
-  <link rel="stylesheet" href="../assets/css/common.css" />
-  <!-- Contact CSS -->
-  <link rel="stylesheet" href="../assets/css/contact.css" />
-  <!-- Poppins & Inter font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet" />
-  <!-- Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-  <title>TechGear</title>
-</head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="main-content">
+        <div>
+          <a href="../index.html"
+            ><img
+              class="home-start"
+              src="../assets/img/Logo.svg"
+              alt="TechGear"
+          /></a>
+        </div>
+        <!-- Menu -->
+        <ul class="list-header">
+          <li><a class="sub-header" href="../index.html">Home</a></li>
+          <li><a class="sub-header" href="./contact.html">Contact</a></li>
+          <li><a class="sub-header" href="./about.html">About</a></li>
+          <li><a class="sub-header" href="./signup.html">Sign Up</a></li>
+        </ul>
+        <!-- ô tìm kiếm + giỏ hàng -->
+        <div class="search-store">
+          <input
+            class="header-search"
+            type="text"
+            placeholder="What are you looking for?"
+          />
+          <div class="icon-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="heart">
+            <a href="./error.html"><i class="fa-regular fa-heart"></i></a>
+          </div>
+          <div class="icon-shop">
+            <a style="color: black" href="./cart.html"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+            <div class="div-so-luong">
+              <p class="so-luong-sp">2</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Div -->
+    <div class="main-content box-conten">
+      <div class="dpl-update">
+        <!-- saibar left  -->
+        <div class="call-wirte">
+          <!-- Nút phone -->
+          <div class="box-phone">
+            <div class="icon-phone">
+              <i class="fa-solid fa-phone"></i>
+              <div class="box-repon">
+                <p class="call-to-us">Call To Us</p>
+              </div>
+              <p class="time-online">We are available 24/7, 7 days a week.</p>
+              <p class="number-phone">Phone: 0123456789</p>
+            </div>
+          </div>
+          <!-- Nút mail -->
+          <div class="box-mail">
+            <div class="div-box-mail">
+              <div class="icon-mail">
+                <i class="fa-regular fa-envelope"></i>
+                <div class="box-repon">
+                  <p class="write-to-us">Write To Us</p>
+                </div>
 
-<body>
-  <!-- Header -->
-  <header>
-    <div class="main-content">
-      <div>
-        <a href="../index.html"><img class="home-start" src="../assets/img/Logo.svg" alt="TechGear" /></a>
-      </div>
-      <!-- Menu -->
-      <ul class="list-header">
-        <li><a class="sub-header" href="../index.html">Home</a></li>
-        <li><a class="sub-header" href="./contact.html">Contact</a></li>
-        <li><a class="sub-header" href="./about.html">About</a></li>
-        <li><a class="sub-header" href="./signup.html">Sign Up</a></li>
-      </ul>
-      <!-- ô tìm kiếm + giỏ hàng -->
-      <div class="search-store">
-        <input class="header-search" type="text" placeholder="What are you looking for?" />
-        <div class="icon-search">
-          <i class="fa-solid fa-magnifying-glass"></i>
+                <p class="check-mail">
+                  Fill out our form and we will contact you within 24 hours.
+                </p>
+                <p class="mail-customer">Emails: 2400008831@nttu.edu.vn</p>
+                <p class="mail-support">Emails: 2400000749@nttu.edu.vn</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="heart">
-          <a href="./error.html"><i class="fa-regular fa-heart"></i></a>
-        </div>
-        <div class="icon-shop">
-          <a style="color: black" href="./cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
-          <div class="div-so-luong">
-            <p class="so-luong-sp">2</p>
+        <!-- saibar right -->
+        <div class="your-info">
+          <div class="div-your-info">
+            <!-- Nhập tên -->
+            <div class="div-name">
+              <input
+                style="
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 24px;
+                "
+                class="your-name"
+                type="text"
+                placeholder="Your Name"
+              />
+            </div>
+            <!-- Nhập mail -->
+            <div class="div-mail">
+              <input
+                style="
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 24px;
+                "
+                class="your-mail"
+                type="text"
+                placeholder="Your mail"
+              />
+            </div>
+            <!-- Nhập sđt -->
+            <div class="div-phone">
+              <input
+                style="
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 24px;
+                "
+                class="your-phone"
+                type="text"
+                placeholder="Your phone"
+              />
+            </div>
+            <!-- Nhập tin nhắn -->
+            <div class="div-massage">
+              <input
+                style="
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 24px;
+                "
+                class="your-massage"
+                type="text"
+                placeholder="Your massage"
+              />
+            </div>
+            <div class="box-send-mess">
+              <a class="btn-send-massage" href="./error.html">
+                <p class="sub-send-mass">Send Massage</p>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </header>
-  <!-- Div -->
-  <div class="main-content box-conten">
-    <div class="dpl-update">
-      <!-- saibar left  -->
-      <div class="call-wirte">
-      <!-- Nút phone -->
-      <div class="box-phone">
-        <div class="icon-phone">
-          <i class="fa-solid fa-phone"></i>
-          <div class="box-repon">
-            <p class="call-to-us">Call To Us</p>
+    <!-- Footer -->
+    <footer>
+      <div class="footer-box-content">
+        <div class="end-project">
+          <!-- Column 1 -->
+          <div class="div-people">
+            <p class="tiltle-footer1">Product Maker</p>
+            <p class="admin-1">
+              Nguyen Ngoc Hien <br />
+              2400008831
+            </p>
+            <p class="admin-1">
+              Dang Thanh Tuan <br />
+              2400000749
+            </p>
           </div>
-          <p class="time-online">We are available 24/7, 7 days a week.</p>
-          <p class="number-phone">Phone: 0123456789</p>
-        </div>
-      </div>
-      <!-- Nút mail -->
-      <div class="box-mail">
-        <div class="div-box-mail">
-          <div class="icon-mail">
-            <i class="fa-regular fa-envelope"></i>
-            <div class="box-repon">
-            <p class="write-to-us">Write To Us</p>
+          <!-- Column 2 -->
+          <div class="div-support">
+            <p class="support">Support</p>
+            <p class="footer-phone">Hostline: 0123456789</p>
+            <div class="footer-mail">
+              <input
+                class="footer-text"
+                type="text"
+                placeholder="Enter Your Email"
+              />
+              <div class="icon-plane">
+                <i class="fa-solid fa-paper-plane"></i>
+              </div>
+            </div>
           </div>
-            
-            <p class="check-mail">Fill out our form and we will contact you within 24 hours.</p>
-            <p class="mail-customer">Emails: 2400008831@nttu.edu.vn</p>
-            <p class="mail-support">Emails: 2400000749@nttu.edu.vn</p>
+          <!-- Column 3 -->
+          <div class="function-web">
+            <p class="comment-function">Website Functions</p>
+            <a class="home-footer" href="../index.html">Home</a>
+            <a href="./contact.html" class="contact-footer">Contact</a>
+            <a href="#" class="about-footer">About</a>
+            <a href="./signup.html" class="sign-footer">Sign Up</a>
           </div>
-        </div>
-      </div>
-    </div>
-    <!-- saibar right -->
-    <div class="your-info">
-      <div class="div-your-info">
-        <!-- Nhập tên -->
-        <div class="div-name">
-          <input style="font-size: 16px; font-style: normal; font-weight: 400; line-height: 24px" class="your-name"
-            type="text" placeholder="Your Name">
-        </div>
-        <!-- Nhập mail -->
-        <div class="div-mail">
-          <input style="font-size: 16px; font-style: normal; font-weight: 400; line-height: 24px" class="your-mail"
-            type="text" placeholder="Your mail">
-        </div>
-        <!-- Nhập sđt -->
-        <div class="div-phone">
-          <input style="font-size: 16px; font-style: normal; font-weight: 400; line-height: 24px" class="your-phone"
-            type="text" placeholder="Your phone">
-        </div>
-        <!-- Nhập tin nhắn -->
-        <div class="div-massage">
-          <input style="font-size: 16px; font-style: normal; font-weight: 400; line-height: 24px" class="your-massage"
-            type="text" placeholder="Your massage">
-        </div>
-        <div class="box-send-mess">
-          <a class="btn-send-massage" href="./error.html">
-            <p class="sub-send-mass">Send Massage</p>
-          </a>
-        </div>
-      </div>
-    </div>
-    </div>
-  </div>
-  <!-- Footer -->
-  <footer>
-    <div class="footer-box-content">
-      <div class="end-project">
-        <!-- Column 1 -->
-        <div class="div-people">
-          <p class="tiltle-footer1">Product Maker</p>
-          <p class="admin-1">Nguyen Ngoc Hien <br> 2400008831</p>
-          <p class="admin-1">Dang Thanh Tuan <br> 2400000749</p>
-        </div>
-        <!-- Column 2 -->
-        <div class="div-support">
-          <p class="support">Support</p>
-          <p class="footer-phone">Hostline: 0123456789</p>
-          <div class="footer-mail">
-            <input class="footer-text" type="text" placeholder="Enter Your Email" />
-            <div class="icon-plane"><i class="fa-solid fa-paper-plane"></i></div>
+          <!-- Column 4 -->
+          <div class="university">
+            <p class="div-university">University</p>
+            <div class="name-university">Nguyen Tat Thanh</div>
+            <div class="kh-university">NTTU</div>
           </div>
         </div>
-        <!-- Column 3 -->
-        <div class="function-web">
-          <p class="comment-function">Website Functions
-          </p>
-          <a class="home-footer" href="../index.html">Home</a>
-          <a href="./contact.html" class="contact-footer">Contact</a>
-          <a href="#" class="about-footer">About</a>
-          <a href="./signup.html" class="sign-footer">Sign Up</a>
-        </div>
-        <!-- Column 4 -->
-        <div class="university">
-          <p class="div-university">University</p>
-          <div class="name-university">Nguyen Tat Thanh</div>
-          <div class="kh-university">NTTU</div>
-        </div>
+        <!-- Over Ride -->
+        <div class="override"></div>
       </div>
-      <!-- Over Ride -->
-       <div class="override"></div>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
